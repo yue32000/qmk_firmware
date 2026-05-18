@@ -1,0 +1,51 @@
+{
+  "manufacturer": "yuekey",
+  "keyboard_name": "yuekey",
+  "maintainer": "yue32000",
+  "processor": "atmega32u4",
+  "bootloader": "atmel-dfu",
+  "matrix_pins": {
+    "cols": ["F6", "F5", "F4", "F1", "F0"],
+    "rows": ["C7", "C6", "B6", "B5", "B4"]
+  },
+  "usb": {
+    "device_version": "0.0.1",
+    "pid": "0x1209",
+    "vid": "0x0001"
+  },
+  "diode_direction": "COL2ROW",
+  "layout_aliases": {
+    "LAYOUT": "LAYOUT_numpad_5x5"
+  },
+  "layouts": {
+    "LAYOUT_numpad_5x5": {
+      "layout": [
+        {"label": "Q", "matrix": [0, 0], "x": 0, "y": 0},
+        {"label": "W", "matrix": [0, 1], "x": 1, "y": 0},
+        {"label": "E", "matrix": [0, 2], "x": 2, "y": 0},
+        {"label": "R", "matrix": [0, 3], "x": 3, "y": 0},
+        {"label": "T", "matrix": [0, 4], "x": 4, "y": 0},
+        {"label": "Y", "matrix": [1, 0], "x": 0, "y": 1},
+        {"label": "U", "matrix": [1, 1], "x": 1, "y": 1},
+        {"label": "I", "matrix": [1, 2], "x": 2, "y": 1},
+        {"label": "O", "matrix": [1, 3], "x": 3, "y": 1},
+        {"label": "P", "matrix": [1, 4], "x": 4, "y": 1},
+        {"label": "A", "matrix": [2, 0], "x": 0, "y": 2},
+        {"label": "S", "matrix": [2, 1], "x": 1, "y": 2},
+        {"label": "D", "matrix": [2, 2], "x": 2, "y": 2},
+        {"label": "F", "matrix": [2, 3], "x": 3, "y": 2},
+        {"label": "G", "matrix": [2, 4], "x": 4, "y": 2},
+        {"label": "H", "matrix": [3, 0], "x": 0, "y": 3},
+        {"label": "J", "matrix": [3, 1], "x": 1, "y": 3},
+        {"label": "K", "matrix": [3, 2], "x": 2, "y": 3},
+        {"label": "L", "matrix": [3, 3], "x": 3, "y": 3},
+        {"label": "Backspace", "matrix": [3, 4], "x": 4, "y": 3},
+        {"label": "space", "matrix": [4, 0], "x": 0, "y": 4},
+        {"label": "Caps", "matrix": [4, 1], "x": 1, "y": 4},
+        {"label": "Ctl", "matrix": [4, 2], "x": 2, "y": 4},
+        {"label": "Shift", "matrix": [4, 3], "x": 3, "y": 4},
+        {"label": "TL", "matrix": [4, 4], "x": 4, "y": 4}
+      ]
+    }
+  }
+}
